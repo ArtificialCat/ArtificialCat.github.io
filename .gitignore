@@ -27,3 +27,7 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Bundler 가 생성한 폴더 무시
+.bundle/
+vendor/
