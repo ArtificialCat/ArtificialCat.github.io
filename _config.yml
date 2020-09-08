@@ -9,10 +9,9 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -25,9 +24,9 @@ url                      : "https://ArtificialCat/github.io" # the base hostname
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/mast_imgs/smoking_cat.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "커피쏟은 고양이" # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 mathjax:
   enable: true
 words_per_minute         : 200
@@ -92,11 +91,10 @@ analytics:
     tracking_id          : UA-177421598-1
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   name             : "Job Cat"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/mast_imgs/smoking_cat.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "이것저것 공부하면서 일하면서 관심있는 것 정리하는 곳"
   location         : "Gyeongi-do"
   email            :
